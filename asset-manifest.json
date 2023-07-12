@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react_challenge/static/css/main.dfb9f3e3.css",
+    "main.css": "/react_challenge/static/css/main.c7baca96.css",
     "main.js": "/react_challenge/static/js/main.ab816752.js",
     "static/media/Epilogue-Bold.ttf": "/react_challenge/static/media/Epilogue-Bold.7c04a963fd16125b0727.ttf",
     "static/media/Epilogue-Regular.ttf": "/react_challenge/static/media/Epilogue-Regular.3446cbdeae664b7f3dc4.ttf",
@@ -17,11 +17,11 @@
     "static/media/icon-menu.svg": "/react_challenge/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
     "static/media/icon-arrow-down.svg": "/react_challenge/static/media/icon-arrow-down.5d7c6fb3d37f83549759710d926ec881.svg",
     "static/media/icon-arrow-up.svg": "/react_challenge/static/media/icon-arrow-up.358c3a8cceb6fb3ed397324b4870984a.svg",
-    "main.dfb9f3e3.css.map": "/react_challenge/static/css/main.dfb9f3e3.css.map",
+    "main.c7baca96.css.map": "/react_challenge/static/css/main.c7baca96.css.map",
     "main.ab816752.js.map": "/react_challenge/static/js/main.ab816752.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfb9f3e3.css",
+    "static/css/main.c7baca96.css",
     "static/js/main.ab816752.js"
   ]
 }
