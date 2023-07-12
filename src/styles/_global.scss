@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Epilogue';
+    src: url('../assets/fonts/Epilogue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Epilogue-bold';
+    src: url('../assets/fonts/Epilogue-Bold.ttf') format('truetype');
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+a,
+button,
+span {
+    font-size: 15px;
+}
+
+#root {
+    height: 100%;
+}

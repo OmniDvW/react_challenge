@@ -1,0 +1,175 @@
+@import "../../styles/variables";
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem 2rem 3rem;
+
+    @media (max-width: 767px) {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .navbar-title {
+        h1 {
+            font-family: 'Epilogue-bold', sans-serif;
+            font-size: 35px;
+        }
+    }
+
+    .navbar-menu {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3rem;
+
+        @media (max-width: 767px) {
+            display: none;
+        }
+
+        .navbar-menu-link {
+
+            button {
+                margin-right: 1.5rem;
+                width: 100%;
+                border: none;
+                color: $color-black;
+                font-weight: 500;
+                opacity: 60%;
+                background-color: transparent;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+
+                img {
+                    margin-left: 0.3rem;
+                }
+
+
+                .arrowUp {
+                    display: none;
+                }
+
+                .arrowDown {
+                    display: block;
+                }
+
+                &:hover {
+                    opacity: 100%;
+
+                    .arrowUp {
+                        display: block;
+                    }
+
+                    .arrowDown {
+                        display: none;
+                    }
+                }
+            }
+
+            .dropdown-menu {
+                display: none;
+                width: 12rem;
+                position: absolute;
+                background-color: transparent;
+                padding: 2.2rem 1rem 1rem 1rem;
+                margin-left: -3.5rem;
+                z-index: 2;
+
+                li {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-bottom: 1rem;
+
+                    .logo-img {
+                        text-align: center;
+                        margin-right: 0.8rem;
+
+                        img {
+                            height: 1rem;
+                            width: 1rem;
+                        }
+                    }
+
+                    a {
+
+                        text-decoration: none;
+                        font-size: 15px;
+                        color: $color-black;
+                        opacity: 60%;
+                        font-weight: 500;
+
+                        &:hover {
+                            opacity: 100%;
+                        }
+                    }
+
+                    .link {
+                        margin-bottom: 0.5rem;
+                        margin-left: 4rem;
+                    }
+                }
+            }
+
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+
+                    button {
+                        opacity: 100%;
+
+
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar-login {
+        a {
+            text-decoration: none;
+            color: $color-black;
+            padding: 0.6rem 0.9rem 0.6rem 0.9rem;
+            opacity: 60%;
+            font-weight: 500;
+            font-size: 15px;
+
+            &:hover {
+                opacity: 100%;
+            }
+        }
+
+        .register-link {
+            border-radius: 10px;
+            border: 1px solid $color-gray;
+            margin-left: 1.5rem;
+
+
+            &:hover {
+                border-color: $color-black;
+            }
+        }
+
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    .navbar-burger {
+        display: none;
+
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        @media (max-width: 767px) {
+            display: block;
+        }
+    }
+}
